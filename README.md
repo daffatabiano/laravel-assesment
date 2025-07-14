@@ -18,8 +18,8 @@ This Laravel application demonstrates API consumption, data manipulation, and fr
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/daffatabiano/ptmurni-laravel.git
-$ cd ptmurni-laravel
+$ git clone https://github.com/daffatabiano/laravel-assesment.git
+$ cd laravel-assesment
 
 # Install dependencies
 $ composer install
@@ -151,8 +151,8 @@ $ php artisan serve
 ## 📅 Author
 
 **Your Name**\
-GitHub: [@your-username](https://github.com/your-username)\
-Email: [you@example.com](mailto\:you@example.com)
+GitHub: [@daffatabiano](https://github.com/daffatabiano)\
+Email: [daffatabianoo@gmail.com](mailto\:daffatabianoo@gmail.com)
 
 ---
 
