@@ -133,7 +133,7 @@ class PostController extends Controller
         $response = Http::get('https://jsonplaceholder.typicode.com/posts');
 
         if ($response->failed()) {
-            throw new \Exception("Anjing ngentot");
+            throw new \Exception("failed to load data");
         }
 
         $data = collect($response->json());
@@ -165,7 +165,7 @@ class PostController extends Controller
 
     } catch (\Exception $e) {
         return response()->json([
-            "error" => 'message anjing'
+            "error" => $e->getMessage()
         ], 500);
     }
 }
